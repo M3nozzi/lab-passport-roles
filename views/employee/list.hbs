@@ -1,0 +1,10 @@
+{{#each users}}
+    <div>
+        {{username}}
+        {{role}}
+        <a href="/employee/edit/{{id}}">EDIT</a>
+        <br>
+        <br>
+        <a href="/employee/delete/{{id}}">DELETE</a>
+    </div>
+{{/each}}
